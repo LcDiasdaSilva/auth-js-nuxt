@@ -16,14 +16,14 @@
 <template>
   <div>
     <div class="top-bar">
-      <div>{{ session?.user.email }}</div>
+      <div>{{ session?.user?.email }}</div>
       <div></div>
       <button @click="signOut()">Sair</button>
     </div>
     <div class="content">
 
       <h1>Bem vindo !</h1>
-      <h4>{{ session?.user.name }}</h4>
+      <h4>{{ session?.user?.name }}</h4>
     </div>
   </div>
 </template>
@@ -31,8 +31,5 @@
 <script setup lang="ts">
 definePageMeta({ middleware: "auth", auth: { guestRedirectTo: "/login" } })
 const { signOut, session, status, } = useAuth()
-
-
-
 
 </script>

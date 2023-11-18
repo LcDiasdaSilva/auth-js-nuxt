@@ -44,7 +44,4 @@
 definePageMeta({ middleware: "guest-only", auth: { authenticatedRedirectTo: "/" } })
 const { signIn, status } = useAuth()
 
-
-
-
 </script>
