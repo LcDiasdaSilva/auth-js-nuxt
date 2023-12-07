@@ -1,6 +1,9 @@
 # Autenticação AuthJS Nuxt + Github 
 
-Demo [signIn](https://auth-js-nuxt.pages.dev/).
+Demo [Login](https://auth-js-nuxt.pages.dev/).
+
+![Pagina de Login](public/readme1.png)
+![OAuth2 Github](public/readme2.png)
 
 ## Setup
 
